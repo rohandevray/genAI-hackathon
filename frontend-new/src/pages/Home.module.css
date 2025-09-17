@@ -30,6 +30,15 @@
   cursor: pointer;
 }
 
+.connectBtn{
+  padding: 0.5rem 1rem;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  /* cursor: pointer; */
+}
+
 /* Hero Section */
 .hero {
   text-align: center; /* Center text */
