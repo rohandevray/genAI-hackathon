@@ -123,4 +123,5 @@ async def create_issues(request: Request):
 
     return created_issues  # Return array directly for simplicity
 
+
 # uvicorn main:app --reload --host 0.0.0.0 --port 8000

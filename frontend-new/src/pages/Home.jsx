@@ -29,6 +29,10 @@ export default function Home() {
     }
   };
 
+  const handleLogin = () => {
+    window.location.href = "http://localhost:8000/connect-jira"; 
+  };
+
   return (
     <div className={styles.page}>
       <motion.nav
@@ -39,6 +43,7 @@ export default function Home() {
       >
         <div className={styles.logo}>🚀 TestGenAI</div>
         <button className={styles.loginBtn}>Login</button>
+        <button className={styles.connectBtn} onClick = {handleLogin}>Connect</button>
       </motion.nav>
 
       <motion.header
